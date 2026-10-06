@@ -8,4 +8,8 @@
 - 执行中等类型题目时，极大概率可在 5-30 min 得到 Flag 与 WP；
 - 执行困难类型题目时，极大概率无法解出。
 
+根据实验结果来看，在简单题目上采取 Medium 的思考强度，可在保持相对持平的正确率上，提高模型解题效率，并进一步抑制异常幻觉、异常 Token 重复的问题。
+
+不建议使用 Max 思考强度。因为我们已经使用了一些定向 Skill 来指导模型从事 CTF 工作。仍然使用 Max 思考强度将导致思考链大幅延长，异常 Token 重复出现、循环推理、异常幻觉出现概率增大，降低解题效率，且对解题正确率（指退回 Explore 阶段重试的概率）无较大帮助。
+
 > Forge a sharp sword, slay my old self, create a brand-new paradigm, and then bury the self of the old era—for I shall become the architect of the new age.
