@@ -14,4 +14,16 @@
 
 为了进一步提升模型执行能力，一些新插件被引入，高级化开发初见雏形。
 
+2026-10-09 更新：
+
+一个巨大的灵感出现了：[ARTEX](https://github.com/RenAhsAcme/ARTEX)。
+
+第一次看到这个仓库的时候，心里其实有点难过的，其实这个项目完全符合我对那些网络安全 Harness 的一切幻想。在 AI 的全力加速下，这一产物也抢先在我懈怠的生活节奏之中发布并在野利用了。
+
+我可能需要考虑另外的创新点了。比如原项目已经停更（准确来说是中止开源，因为为了阻止更广泛的在野滥用，虽然已经收效甚微），我希望把这个利器延续下去，并延伸至 DeepSeek Harness 的原生环境中，并为学习者提供一个全新的理解范式。
+
+心里其实有些矛盾，一方面是已有人做出甚至可以武器化的东西（这该死的嫉妒心，人性的劣根），但另一方面我更乐见这样的进步，我对技术的一切进步都持有极大的热情，即使我知道他将以不同的方式化为利刃刺向我。
+
+通过写一个 `README.md` 来水今日的 Commit 打卡吗？我真的会很有罪恶感。
+
 > Forge a sharp sword, slay my old self, create a brand-new paradigm, and then bury the self of the old era—for I shall become the architect of the new age.
